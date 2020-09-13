@@ -1,0 +1,81 @@
+.am-drawer-overlay {
+  z-index: 999;
+}
+.am-drawer {
+  height: 100vh;
+}
+.am-drawer-content {
+  display: none;
+}
+.am-drawer-sidebar {
+  z-index: 9999;
+  width: 50%;
+}
+.openCoursePageBox {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 68px;
+}
+.openCoursePageBox .ant-pagination-item{
+  border: 1px solid #eeeeee;
+}
+.openCoursePageBox .ant-pagination-item-link,
+.openCoursePageBox .ant-pagination-item a {
+  height: 32px;
+  line-height: 30px;
+}
+.openCoursePageBox .ant-pagination-item a {
+  border: none;
+}
+.openCoursePageBox .ant-pagination-prev a,
+.openCoursePageBox .ant-pagination-next a {
+  display: inline-block;
+  height: 32px;
+  padding: 0 10px;
+  line-height: 30px;
+}
+.openCoursePageBox .ant-pagination-item-active {
+  background: rgba(0, 172, 236, 1);
+  border: 1px solid rgba(0, 172, 236, 1);
+  color: #fff;
+  line-height: 30px;
+}
+.openCoursePageBox .ant-pagination-item:hover,
+.openCoursePageBox .ant-pagination-prev:hover,
+.openCoursePageBox .ant-pagination-next:hover {
+  border: 1px solid rgba(0, 172, 236, 1);
+}
+
+.openCoursePageBox .ant-pagination-item-active a {
+  display: inline-block;
+  color: #fff;
+  background: none;
+  border-radius: 2px;
+  border: none;
+  height: 30px;
+}
+.openCoursePageBox .ant-pagination-item-active:hover {
+  height: 32px;
+  line-height: 30px;
+}
+.openCoursePageBox .ant-pagination-item-active:hover a {
+  display: inline;
+}
+.openCoursePageBox .ant-pagination-prev .ant-pagination-item-link:after,
+.openCoursePageBox .ant-pagination-next .ant-pagination-item-link:after {
+  background-image: none;
+}
+.openCoursePageBox .ant-pagination-item-link {
+  border: none;
+  border-bottom: 1px solid #eeeeee;
+}
+.openCoursePageBox .ant-pagination-prev,
+.openCoursePageBox .ant-pagination-next {
+  height: 32px;
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  line-height: 28px;
+}
+.openCoursePageBox .ant-pagination-disabled:hover {
+  border-color: #eeeeee;
+}
