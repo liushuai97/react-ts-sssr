@@ -41,7 +41,7 @@ class List extends Component<Props> {
                             <h3 className="title">精品公开课</h3>
                             <div className="side">
                                 <p className="fr course-type">
-                                    <Link className="link"  to='/admissions' target="_blank">招生简章</Link>
+                                    <Link className="link"  to='/admissions'>招生简章</Link>
                                     <a className="link" href="#" target="_blank">IT互联网</a>
                                     <a className="link" href="#" target="_blank">职场技能</a>
                                     <a className="link" href="#" target="_blank">外语语言</a>
@@ -49,7 +49,7 @@ class List extends Component<Props> {
                                     <a className="link" href="#" target="_blank">金融投资</a>
                                     <a className="link" href="#" target="_blank">国际就业</a>
                                     <a className="link" href="#" target="_blank">兴趣生活</a>
-                                    <Link className="link more"  to='/detail' target="_blank">更多</Link>
+                                    <Link className="link more"  to='/detail'>更多</Link>
                                 </p>
                             </div>
                         </div>
